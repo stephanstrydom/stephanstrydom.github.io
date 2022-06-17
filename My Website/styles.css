@@ -14,6 +14,7 @@ h2 {
   text-align: center;
   font-size: 200%;
   padding-top: 2%;
+  font-weight: bold !important;
 }
 
 h3 {
@@ -31,11 +32,12 @@ p1 {
 p2 {
   color: white;
   font-size: 20px;
+  
 }
 
 li {
   text-align: center;
-  color: black;
+  color: white;
   font-size: 20px;
   font-weight: bold;
   padding-top: 5px;
@@ -61,11 +63,14 @@ li {
   display: block;
   width: 40vw;
   margin-left: 10%;
+  float: left;
+  text-align: justify;
 }
 
 .position {
   float: right;
   margin-right: 10%;
+  margin-bottom: 5%;
 }
 
 .hero {
@@ -93,59 +98,31 @@ li {
 /*class="costom-img"*/
 
 .Part1 {
-  /* Sizing */
-  width: 100vw;
-  height: 100vh;
-
-  background-color: white;
+  background-color: #718093;
 }
 
 .Part2 {
-  /* Sizing */
-  width: 100vw;
-  height: 100vh;
-
-  background-color: #718093;
+  background-color: black;
 }
 
 .Part3 {
-  /* Sizing */
-  width: 100vw;
-  height: 100vh;
-
-  background-color: black;
+  background-color: #718093;
 }
 
 .Part4 {
-  /* Sizing */
-  width: 100vw;
-  height: 100vh;
-
-  background-color: #718093;
-}
-
-.Part5 {
-  /* Sizing */
-  width: 100vw;
-  height: 100vh;
-
   background-color: white;
 }
 
-.Part6 {
-  /* Sizing */
-  width: 100vw;
-  height: 100vh;
-
+.Part5 {
   background-color: #718093;
 }
 
-.Part7 {
-  /* Sizing */
-  width: 100vw;
-  height: 100vh;
-
+.Part6 {
   background-color: black;
+}
+
+.Part7 {
+  background-color: #718093;
 }
 
 .h3-One {
@@ -154,10 +131,6 @@ li {
 
 .h3-Two {
   color: white;
-}
-
-.row {
-  display: flex;
 }
 
 .column {
